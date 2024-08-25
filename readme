@@ -1,0 +1,21 @@
+README para main.py
+
+Urban Routes
+Em el proyecto de Urban Routes realizamos pruebas de la aplicación web utilizando Selenium y Python, siguiendo el modelo de diseño POM.
+
+Pruebas a cubrir:
+Configurar la dirección.
+Seleccionar la tarifa Comfort.
+Rellenar el número de teléfono.
+Agregar una tarjeta de crédito.
+Escribir un mensaje para el controlador.
+Pedir una manta y pañuelos.
+Pedir 2 helados.
+Aparece el modal para buscar un taxi.
+Esperar a que aparezca la información del conductor en el modal.
+
+PASOS A SEGUIR CON MÉTODO POM:
+
+Se crean los localizadores de cada uno de los elemntos que se utilizaran en las pruebas.
+Se crea init qué es el constructor de la clase UrbanRoutesPage, para crear nuevas instancias de la clase y las funciones para sus atributos.
+Se agrega WebDriverWait que permite establecer tiempos de espera para la craga y verificación de datos en la secuencia de las pruebas automatizadas.
